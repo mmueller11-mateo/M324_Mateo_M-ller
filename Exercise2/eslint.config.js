@@ -9,14 +9,15 @@ export default [
       sourceType: 'module',
       globals: {
         ...globals.node,
+        ...globals.mocha,
       },
     },
   },
   {
     rules: {
       'no-unused-vars': 'error',
-      eqeqeq: 'error', // Custom Rule 1: Requires === and !==
-      'no-var': 'error', // Custom Rule 2: Disallows var declarations
+      eqeqeq: 'error',
+      'no-var': 'error',
     },
   },
 ]
