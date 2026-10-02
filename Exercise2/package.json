@@ -4,12 +4,14 @@
   "type": "module",
   "scripts": {
     "lint": "eslint .",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "test": "mocha \"*.test.js\""
   },
   "devDependencies": {
     "@eslint/js": "^9.0.0",
     "eslint": "^9.0.0",
     "globals": "^15.0.0",
+    "mocha": "^12.0.3",
     "prettier": "^3.9.9"
   }
 }
