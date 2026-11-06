@@ -1,16 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
-  <meta charset="UTF-8">
-  <title>M324 – My DevOps Page</title>
-  <style>
-    body { font-family: sans-serif; text-align: center; margin-top: 15vh; }
-    button { font-size: 1.2rem; padding: .6rem 1.2rem; }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informatik Portfolio | M324</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style-type: square;
+        }
+    </style>
 </head>
 <body>
-  <h1>It works on my machine… and now on GitHub!</h1>
-  <p>Deployments done: <strong id="n">0</strong></p>
-  <button onclick="document.getElementById('n').textContent++">Deploy to production 🚀</button>
+
+    <h1>Willkommen auf meinem Portfolio</h1>
+    
+    <div class="card">
+        <h2>Über mich & M324</h2>
+        <p>Hallo! Ich bin Informatik-Lernender. Dies ist meine persönliche Website für das Modul <strong>M324 (DevOps / GitHub Releases & Pages)</strong>.</p>
+    </div>
+
+    <div class="card">
+        <h2>Meine Projekte & Ressourcen</h2>
+        <ul>
+            <li><strong>Schulprojekte:</strong> M324 DevOps & Deployment Übungen</li>
+            <li><strong>Lehre:</strong> Entwicklung von Software- und Webanwendungen</li>
+            <li><strong>Tools:</strong> Git, GitHub Actions, HTML/CSS</li>
+        </ul>
+    </div>
+
 </body>
 </html>
