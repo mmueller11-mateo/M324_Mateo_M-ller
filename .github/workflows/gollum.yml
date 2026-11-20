@@ -1,0 +1,23 @@
+
+name: Gollum Wiki Update
+
+on:
+  gollum:
+
+permissions:
+  contents: read
+
+jobs:
+  wiki-update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Display wiki changes
+        env:
+          WIKI_PAGES: ${{ toJson(github.event.pages) }}
+        run: |
+          echo "A wiki page was changed!"
+          echo "$WIKI_PAGES" | jq -r '
+            .[] |
+            "Action: \(.action)\nTitle: \(.title)\nURL: \(.html_url)\n"
+          '
