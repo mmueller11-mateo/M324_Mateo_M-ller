@@ -17,11 +17,11 @@ jobs:
 
     steps:
       - name: Add comment to pull request
-        uses: peter-evans/create-or-update-comment@e8674b075228eee787fea43ef493e45ece1004c9 # v5.0.0
+        uses: peter-evans/create-or-update-comment@e8674b075228eee787fea43ef493e45ece1004c9
         with:
           issue-number: ${{ github.event.pull_request.number }}
           body: |
-            Hello! 👋
+            Hello!
 
             Thank you for opening this pull request.
             Your changes will be reviewed soon.
