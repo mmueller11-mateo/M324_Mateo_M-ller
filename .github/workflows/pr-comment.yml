@@ -21,7 +21,7 @@ jobs:
         with:
           issue-number: ${{ github.event.pull_request.number }}
           body: |
-            Hello! 👋
+            Hello!
 
             Thank you for opening this pull request.
             Your changes will be reviewed soon.
