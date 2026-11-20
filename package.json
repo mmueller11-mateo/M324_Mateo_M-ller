@@ -1,0 +1,28 @@
+{
+  "name": "m324_mateo_m-ller",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/sum.js",
+  "scripts": {
+    "lint": "eslint .",
+    "format:check": "prettier --check .",
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmueller11-mateo/M324_Mateo_M-ller.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/mmueller11-mateo/M324_Mateo_M-ller/issues"
+  },
+  "homepage": "https://github.com/mmueller11-mateo/M324_Mateo_M-ller#readme",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.15.0",
+    "prettier": "^3.10.1"
+  }
+}
